@@ -1,0 +1,6 @@
+J'ai eu des problèmes pour convertir 
+le texte en numéros de table ASCII, et pour
+ passer du numéro de table ASCII au binaire avec la fonction binaire. Je sais que la fonction ord() convertit lettre par lettre, donc je suis parti* en prenant une liste qui fait la conversion des lettres en chiffres valant le numéro ASCII : [ord(letter) for letter in text].
+
+ # if type(text) != str:
+#    string_parsing = str(text)
